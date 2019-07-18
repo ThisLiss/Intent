@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity4">
+
+    <TextView
+        android:id="@+id/firstNameText"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:text="First Name"
+        android:textSize="24sp"
+        tools:text="firstname" />
+
+    <EditText
+        android:id="@+id/etFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:enabled="false"
+        android:textColor="#0A0B0E" />
+
+    <TextView
+        android:id="@+id/lastNameText"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:text="Last Name"
+        android:textSize="24sp"
+        tools:text="lastname" />
+
+    <EditText
+        android:id="@+id/etLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:enabled="false"
+        android:textColor="#0A0B0E" />
+
+    <TextView
+        android:id="@+id/telephoneText"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:text="Telephone"
+        android:textSize="24sp"
+        tools:text="telephone" />
+
+    <EditText
+        android:id="@+id/etTelephone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:enabled="false"
+        android:textColor="#0A0B0E" />
+
+    <TextView
+        android:id="@+id/dateText"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:text="Date"
+        android:textSize="24sp"
+        tools:text="date" />
+
+    <EditText
+        android:id="@+id/etDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:enabled="false"
+        android:textColor="#0A0B0E" />
+
+    <TextView
+        android:id="@+id/adressText"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:text="Adress"
+        android:textSize="24sp"
+        tools:text="adress" />
+
+    <EditText
+        android:id="@+id/etAdress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:enabled="false"
+        android:textColor="#0A0B0E" />
+
+</LinearLayout>

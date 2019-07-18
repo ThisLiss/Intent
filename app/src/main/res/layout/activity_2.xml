@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity2">
+
+    <TextView
+        android:id="@+id/firstNameText"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:text="Telephone"
+        android:textSize="24sp"
+        tools:text="telephone" />
+
+    <EditText
+        android:id="@+id/etTelephone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/dateText2"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:text="Date of birth"
+        android:textSize="24sp"
+        tools:text="date" />
+
+    <EditText
+        android:id="@+id/etDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn2Next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Далее" />
+
+</LinearLayout>
